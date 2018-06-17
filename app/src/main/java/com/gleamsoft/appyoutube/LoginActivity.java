@@ -9,6 +9,8 @@ import android.widget.Button;
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener{
 
     private Button btnCrearCuenta;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

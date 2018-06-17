@@ -41,6 +41,7 @@
                 android:layout_height="wrap_content">
 
                 <EditText
+                    android:id="@+id/txtcorreoregistro"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
 
@@ -58,7 +59,7 @@
                 <EditText
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-
+                    android:id="@+id/txttelefonoregistro"
                     android:drawableTint="#FF4081"
                     android:hint="Teléfono"
                     android:inputType="text"
@@ -73,7 +74,7 @@
                 <EditText
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-
+                    android:id="@+id/txtusuarioregistro"
                     android:drawableTint="#FF4081"
                     android:hint="Usuario"
                     android:inputType="text"
@@ -86,14 +87,14 @@
                 android:layout_height="wrap_content">
 
                 <EditText
-                    android:id="@+id/txtcontrasena"
+                    android:id="@+id/txtcontrasenaregistro"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
 
                     android:drawableTint="#FF4081"
                     android:hint="Contraseña"
-                    android:inputType="numberPassword"
+                    android:inputType="text"
                     android:singleLine="true" />
             </android.support.design.widget.TextInputLayout>
 
