@@ -1,6 +1,8 @@
 package com.gleamsoft.appyoutube;
 
 import com.parse.Parse;
+import com.parse.ParseUser;
+
 import android.app.Application;
 
 public class App extends Application {
@@ -12,6 +14,8 @@ public class App extends Application {
                 .clientKey("yxMrnawsuNpWGwdBujxsoMkamfaxi6KQpSAtSRtX")
                 .server("https://parseapi.back4app.com/")
                 .build()
+
         );
+        ParseUser.enableAutomaticUser();
     }
 }
